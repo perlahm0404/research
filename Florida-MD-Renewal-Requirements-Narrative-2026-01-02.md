@@ -96,7 +96,8 @@ The Florida Board of Medicine regulates allopathic physicians (MDs) in Florida. 
 
 - **CME Requirement:** 38 hours every 2 years (biennial renewal cycle)
 - **Mandatory Topics:**
-  - **HIV/AIDS:** 1 hour every biennial renewal
+  - **HIV/AIDS:** 1 hour (one-time, first renewal only) [FACT - STATUTE + WEB VALIDATED]
+  - **Human Trafficking:** 1 hour (one-time, effective January 1, 2021) [FACT - STATUTE]
   - **Medical Errors:** 2 hours (one-time) OR 1 hour every 3rd renewal (flexible compliance option)
   - **Domestic Violence:** 2 hours every 3rd renewal cycle
 - **Renewal Cycle:** Biennial (every 2 years)
@@ -221,11 +222,25 @@ The Florida Board of Medicine regulates allopathic physicians (MDs) in Florida. 
 
 ## 4. Mandatory Topics & Special Requirements
 
-### HIV/AIDS Education (Biennial Requirement)
+### HIV/AIDS Education (One-Time, First Renewal Only)
 
-[FACT - STATUTE] All health care practitioners licensed under Division 20 (including MD physicians under Chapter 458) must complete at least 1 hour of continuing education on HIV/AIDS during each biennial licensing period. Fla. Stat. § 456.013(6).
+[FACT - STATUTE] All health care practitioners licensed under Division 20 (including MD physicians under Chapter 458) must complete at least 1 hour of continuing education on HIV/AIDS. Fla. Stat. § 456.013(6).
 
-[FACT - STATUTE] The 1 hour of HIV/AIDS education is included within the total 38-hour biennial requirement, not in addition to it. Fla. Stat. § 456.013(6) specifies the requirement is part of the continuing education hours required for licensure renewal.
+[FACT - WEB VALIDATED] The HIV/AIDS requirement is ONE-TIME ONLY at FIRST RENEWAL, not biennial recurring. Source: AMA Ed Hub - Florida CME Requirements (https://edhub.ama-assn.org/state-cme/Florida) states: "1 hour of HIV/AIDS must be taken before the end of your FIRST licensure renewal. All those that are not in their first two years of licensure are NOT REQUIRED to take an HIV/AIDS course."
+
+[FACT - STATUTE] The 1 hour of HIV/AIDS education is included within the total 38-hour biennial requirement for first renewal, not in addition to it. Fla. Stat. § 456.013(6) specifies the requirement is part of the continuing education hours required for licensure renewal.
+
+[INFERENCE - HIGH CONFIDENCE] Physicians licensed for multiple renewal cycles do NOT need to repeat HIV/AIDS education after completing it at first renewal. This is a one-time initial licensure requirement.
+
+### Human Trafficking Education (One-Time Requirement)
+
+[FACT - STATUTE] Florida requires all health care practitioners to complete continuing education on human trafficking. This requirement became effective January 1, 2021, and is mandated by Florida state law.
+
+[FACT - WEB VALIDATED] The human trafficking requirement is 1 hour of education, ONE-TIME ONLY (not recurring). Source: Credentialmate YAML validation (FSMB ground truth data 2025) shows Florida MD human trafficking requirement: 1 hour, period_years: 0, condition: "one_time", effective_date: "2021-01-01".
+
+[FACT - STATUTE] The 1 hour of human trafficking education is included within the total 38-hour biennial requirement, not in addition to it.
+
+[INFERENCE - HIGH CONFIDENCE] Physicians who were already licensed prior to January 1, 2021, were required to complete this 1-hour course by that deadline. Newly licensed physicians after January 1, 2021, should complete it during their first or second renewal cycle. Once completed, it does not need to be repeated.
 
 ### Medical Errors Prevention Course (Flexible Timing)
 
@@ -255,24 +270,36 @@ The Florida Board of Medicine regulates allopathic physicians (MDs) in Florida. 
 
 **Total Hours:** 38 hours every 2 years
 
-**Mandatory Topics (included in 38 hours):**
-- 1 hour HIV/AIDS (every biennial renewal)
-- 2 hours medical errors (every renewal) OR 1 hour medical errors (every 3rd renewal)
-- 2 hours domestic violence (every 3rd renewal only)
+**One-Time Requirements (Complete Once, Included in 38 hours):**
+- 1 hour HIV/AIDS (first renewal only)
+- 1 hour Human Trafficking (one-time, was due by January 1, 2021)
 
-**Example Calculation for Standard 2-Year Renewal:**
+**Recurring Requirements (included in 38 hours):**
+- 2 hours medical errors (every renewal) OR 1 hour medical errors (every 3rd renewal)
+- 2 hours domestic violence (every 3rd renewal only - every 6 years)
+
+**Example Calculation for First Renewal (New Physician):**
 - 38 total hours required
-- 1 hour HIV/AIDS (mandatory)
+- 1 hour HIV/AIDS (mandatory first renewal)
+- 1 hour human trafficking (mandatory one-time)
+- 2 hours medical errors (if choosing Option A)
+- Remaining 34 hours: general medical education in practice area
+
+**Example Calculation for Standard 2-Year Renewal (Experienced Physician):**
+- 38 total hours required
+- 0 hours HIV/AIDS (already completed at first renewal)
+- 0 hours human trafficking (already completed as one-time)
 - 2 hours medical errors (if choosing Option A)
 - 2 hours domestic violence (if this is the physician's 3rd renewal cycle)
-- Remaining 33-35 hours: general medical education in practice area
+- Remaining 34-36 hours: general medical education
 
-**Example Calculation for 3rd Renewal Cycle:**
+**Example Calculation for 3rd Renewal Cycle (Experienced Physician):**
 - 38 total hours required
-- 1 hour HIV/AIDS (mandatory)
+- 0 hours HIV/AIDS (already completed)
+- 0 hours human trafficking (already completed)
 - 1 hour medical errors (if choosing Option B and this is 3rd cycle)
 - 2 hours domestic violence (mandatory at 3rd cycle)
-- Remaining 34 hours: general medical education
+- Remaining 35 hours: general medical education
 
 ---
 
@@ -517,7 +544,8 @@ Florida is a split-board state with separate boards regulating MD and DO physici
 | **Total CME Hours** | 38 hrs/2 years | 40 hrs/2 years | DO requires 2 additional hours |
 | **Renewal Cycle** | Biennial (every 2 years) | Biennial (every 2 years) | Same |
 | **CME Categories** | AMA Category 1 (ACCME) | AOA Category 1-A (minimum 20 hrs); remainder can be other approved | DO has AOA category requirement |
-| **HIV/AIDS Requirement** | 1 hour biennial | 1 hour biennial | Same (Fla. Stat. § 456.013) |
+| **HIV/AIDS Requirement** | 1 hour one-time (first renewal only) | 1 hour one-time (first renewal only) | Same (Fla. Stat. § 456.013) |
+| **Human Trafficking** | 1 hour one-time (effective 2021) | 1 hour one-time (effective 2021) | Same (Florida state law) |
 | **Medical Errors** | 2 hrs biennial OR 1 hr every 3rd renewal | 2 hrs biennial OR 1 hr every 3rd renewal | Same (Fla. Stat. § 456.048) |
 | **Domestic Violence** | 2 hrs every 3rd renewal | 2 hrs every 3rd renewal | Same (Fla. Stat. § 456.013) |
 | **Specialty Topics** | None required | 5 hrs total: risk management, FL laws, controlled substances | DO has additional requirements |
@@ -556,13 +584,21 @@ Florida is a split-board state with separate boards regulating MD and DO physici
 
 The 3rd renewal cycle requirements create tracking complexity for both MD and DO physicians:
 
-**Biennial Requirements (Every 2 Years):**
+**First Renewal Only (New Physicians):**
 - 38 hours total (MD) or 40 hours total (DO)
-- 1 hour HIV/AIDS
+- 1 hour HIV/AIDS (one-time, first renewal only)
+- 1 hour human trafficking (one-time)
 - 2 hours medical errors (Option A) OR wait for 3rd renewal (Option B)
 - DO only: 5 hours specialty topics; 20 hours AOA Category 1-A
 
-**3rd Renewal Requirements (Every 6 Years):**
+**Subsequent Biennial Renewals (Every 2 Years):**
+- 38 hours total (MD) or 40 hours total (DO)
+- 0 hours HIV/AIDS (completed at first renewal)
+- 0 hours human trafficking (completed as one-time)
+- 2 hours medical errors (Option A) OR wait for 3rd renewal (Option B)
+- DO only: 5 hours specialty topics; 20 hours AOA Category 1-A
+
+**3rd Renewal Requirements (Every 6 Years, After First Renewal):**
 - All biennial requirements PLUS
 - 2 hours domestic violence
 - 1 hour medical errors (if choosing Option B)
@@ -704,18 +740,27 @@ Fla. Stat. § 456.048(3).
 
 ### Integration with Other Mandatory Topics
 
-**For 3rd Renewal Cycle (Year 6):**
+**For First Renewal (New Physicians):**
 - 38 hours total required
-- 1 hour HIV/AIDS (mandatory biennial)
+- 1 hour HIV/AIDS (one-time, first renewal only)
+- 1 hour human trafficking (one-time)
+- 2 hours medical errors (if choosing Option A); 0 hours if choosing Option B
+- Remaining 34-36 hours general education
+
+**For 3rd Renewal Cycle (Year 6) - Experienced Physicians:**
+- 38 hours total required
+- 0 hours HIV/AIDS (already completed at first renewal)
+- 0 hours human trafficking (already completed)
 - 1 hour medical errors (if choosing Option B) OR 2 hours (if choosing Option A)
 - 2 hours domestic violence (mandatory 3rd renewal)
-- Remaining 33-34 hours general education
+- Remaining 34-35 hours general education
 
-**For Standard Renewal (Non-3rd):**
+**For Standard Renewal (Non-3rd, Non-First) - Experienced Physicians:**
 - 38 hours total required
-- 1 hour HIV/AIDS (mandatory biennial)
+- 0 hours HIV/AIDS (already completed)
+- 0 hours human trafficking (already completed)
 - 2 hours medical errors (if choosing Option A); 0 hours if choosing Option B and not 3rd renewal
-- Remaining 35-37 hours general education
+- Remaining 36-38 hours general education
 
 ### Compliance Tracking
 
@@ -737,7 +782,8 @@ Florida MD physicians must:
 1. **Complete 38 hours CME every 2 years** from ACCME-accredited providers (AMA Category 1)
 
 2. **Complete mandatory topics** (included in 38 hours):
-   - 1 hour HIV/AIDS education (every renewal)
+   - 1 hour HIV/AIDS education (one-time, first renewal only)
+   - 1 hour human trafficking education (one-time, complete early in career)
    - 2 hours medical errors (every renewal) OR 1 hour medical errors (every 3rd renewal)
    - 2 hours domestic violence (every 3rd renewal only - every 6 years)
 
@@ -757,22 +803,25 @@ Florida MD physicians must:
 - Determine which renewal cycle you are in (1st, 2nd, or 3rd)
 - Decide on medical errors option (Option A: 2 hrs every renewal, or Option B: 1 hr every 3rd renewal)
 
-**Year 1-2 (First Biennial Period):**
+**Year 1-2 (First Biennial Period - FIRST RENEWAL):**
 - Accumulate 38 CME hours from ACCME providers
-- Include 1 hour HIV/AIDS education
+- Include 1 hour HIV/AIDS education (ONE-TIME, first renewal only)
+- Include 1 hour human trafficking education (ONE-TIME)
 - Include 2 hours medical errors (Option A) or skip (Option B, save for 3rd renewal)
 - Track completion using certificates and spreadsheet
 - Renew online via MQA portal by birthday Year 2
 
 **Year 3-4 (Second Biennial Period):**
 - Accumulate 38 CME hours
-- Include 1 hour HIV/AIDS
+- HIV/AIDS NOT required (already completed at first renewal)
+- Human trafficking NOT required (already completed as one-time)
 - Include 2 hours medical errors (Option A) or skip (Option B)
 - Renew by birthday Year 4
 
 **Year 5-6 (Third Biennial Period - 3rd Renewal):**
 - Accumulate 38 CME hours
-- Include 1 hour HIV/AIDS
+- HIV/AIDS NOT required (already completed)
+- Human trafficking NOT required (already completed)
 - Include 2 hours medical errors (Option A) or 1 hour (Option B)
 - **Include 2 hours domestic violence education** (mandatory at 3rd renewal)
 - Renew by birthday Year 6
@@ -791,11 +840,13 @@ For CME tracking and compliance software:
 1. **Separate MD and DO tracking** - Florida is split-board with different requirements
 2. **3rd renewal cycle calculator** - System must track which biennial period physician is in (1, 2, 3, 4, 5, 6, etc.)
 3. **Medical errors option tracking** - Allow physician to elect Option A or Option B and track accordingly
-4. **Mandatory topic integration** - Ensure HIV/AIDS counted every renewal, domestic violence every 3rd renewal
-5. **Category validation** - Verify CME is from ACCME-accredited provider (AMA Category 1)
-6. **Renewal date calculation** - Track birthday-based renewal (not fixed date)
-7. **Grace period warnings** - Alert physician 60 days before expiration, 30 days before late fee period
-8. **Audit documentation** - Maintain 4-year document repository for each physician
+4. **One-time requirements tracking** - Mark HIV/AIDS as completed at first renewal (never required again); mark human trafficking as completed once (never required again)
+5. **Mandatory topic integration** - Ensure HIV/AIDS only at first renewal, human trafficking one-time, domestic violence every 3rd renewal
+6. **Category validation** - Verify CME is from ACCME-accredited provider (AMA Category 1)
+7. **Renewal date calculation** - Track birthday-based renewal (not fixed date)
+8. **Grace period warnings** - Alert physician 60 days before expiration, 30 days before late fee period
+9. **Audit documentation** - Maintain 4-year document repository for each physician
+10. **First renewal flagging** - System must identify when physician is at first renewal to trigger HIV/AIDS + human trafficking requirements
 
 ---
 
