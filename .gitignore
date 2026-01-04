@@ -1,0 +1,23 @@
+# Ralph Research Evidence and Logs
+tools/ralph-research/state/runs/
+tools/ralph-research/state/*.log
+tools/ralph-research/state/loop.log
+!tools/ralph-research/state/STATUS.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
