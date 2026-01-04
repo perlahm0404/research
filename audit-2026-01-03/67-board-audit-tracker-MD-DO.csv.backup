@@ -1,10 +1,10 @@
 state_abbr,state_name,license_type,board_name,board_type,tier,document_exists,document_filename,document_date,document_line_count,claimed_completion_%,document_status,last_updated,frontmatter_v3_compliant,frontmatter_missing_fields,governance_section_complete,soc2_iso_sections_present,research_quality_metrics_present,gaps_documented_with_priority,required_sections_present,sections_in_correct_order,fact_tag_count,inference_tag_count,critical_gap_tag_count,citations_with_urls,cross_source_congruency_tracked,sources_cited_section_complete,audit_score_v3
-AL,Alabama,MD,Alabama Board of Medical Examiners & Medical Licensure Commission,UNIFIED,TIER-1,YES,AL-MD-Renewal-Requirements-Narrative-2026-01-02.md,2026-01-02,634,95,COMPLETE,2026-01-03,YES,none,YES,YES,YES,YES,14,YES,50,10,5,90%,YES,COMPLETE,88
+AL,Alabama,MD,Alabama Board of Medical Examiners & Medical Licensure Commission,UNIFIED,TIER-1,YES,AL-MD-Renewal-Requirements-Narrative-2026-01-02.md,2026-01-02,634,95,COMPLETE,2026-01-02,NO,governance;soc2;iso;research_quality;scope;gaps,NO,NO,NO,YES,14,YES,50,10,5,90%,YES,COMPLETE,69
 AL,Alabama,DO,Alabama Board of Medical Examiners & Medical Licensure Commission,UNIFIED,TIER-1,NO,,,,,MISSING,,,,,,,,,,,,,,,,,
 AK,Alaska,MD,Alaska State Medical Board,UNIFIED,TIER-1,YES,AK-MD-Renewal-Requirements-Narrative-2026-01-02.md,2026-01-02,391,88,COMPLETE,2026-01-02,NO,all_v3_sections,NO,NO,NO,PARTIAL,14,YES,22,9,6,15%,YES,PARTIAL,45
 AK,Alaska,DO,Alaska State Medical Board,UNIFIED,TIER-1,NO,,,,,MISSING,,,,,,,,,,,,,,,,,
 AZ,Arizona,MD,Arizona Medical Board,SPLIT_MD,TIER-2,YES,Arizona-MD-Renewal-Requirements-Narrative-2026-01-02.md,2026-01-02,,,COMPLETE,2026-01-02,,,,,,,,,,,,,,,
-AZ,Arizona,DO,Arizona Board of Osteopathic Examiners in Medicine and Surgery,SPLIT_DO,TIER-2,YES,Arizona-DO-Renewal-Requirements-Narrative-2026-01-02.md,2026-01-02,748,76,COMPLETE,2026-01-03,YES,none,YES,YES,YES,YES,15,PARTIAL,52,6,6,30%,PARTIAL,PARTIAL,83
+AZ,Arizona,DO,Arizona Board of Osteopathic Examiners in Medicine and Surgery,SPLIT_DO,TIER-2,YES,Arizona-DO-Renewal-Requirements-Narrative-2026-01-02.md,2026-01-02,748,76,COMPLETE,2026-01-02,PARTIAL,soc2;iso;gap_arrays,YES,NO,YES,PARTIAL,15,PARTIAL,52,6,6,30%,PARTIAL,PARTIAL,69
 AR,Arkansas,MD,Arkansas State Medical Board,UNIFIED,TIER-1,YES,AR-MD-Renewal-Requirements-Narrative-2026-01-02.md,2026-01-02,356,92,COMPLETE,2026-01-02,NO,all_v3_sections,NO,NO,NO,PARTIAL,13,YES,25,7,5,10%,YES,PARTIAL,41
 AR,Arkansas,DO,Arkansas State Medical Board,UNIFIED,TIER-1,NO,,,,,MISSING,,,,,,,,,,,,,,,,,
 CA,California,MD,Medical Board of California,SPLIT_MD,TIER-2,YES,California-MD-Renewal-Requirements-Narrative-2026-01-02.md,2026-01-02,,,COMPLETE,2026-01-02,,,,,,,,,,,,,,,
@@ -19,13 +19,13 @@ DC,District of Columbia,MD,District of Columbia Board of Medicine,UNIFIED,TIER-1
 DC,District of Columbia,DO,District of Columbia Board of Medicine,UNIFIED,TIER-1,NO,,,,,MISSING,,,,,,,,,,,,,,,,,
 FL,Florida,MD,Florida Board of Medicine,SPLIT_MD,TIER-2,YES,Florida-MD-Renewal-Requirements-Narrative-2026-01-02.md,2026-01-02,916,82,COMPLETE,2026-01-02,PARTIAL,iso;gap_arrays,YES,YES,YES,YES,15,PARTIAL,85,23,10,10%,PARTIAL,PARTIAL,79
 FL,Florida,DO,Florida Board of Osteopathic Medicine,SPLIT_DO,TIER-2,YES,Florida-DO-Renewal-Requirements-Narrative-2026-01-02.md,2026-01-02,,,COMPLETE,2026-01-02,,,,,,,,,,,,,,,
-GA,Georgia,MD,Georgia Composite Medical Board,UNIFIED,TIER-1,YES,GA-MD-Renewal-Requirements-Narrative-2026-01-02.md,2026-01-02,920,85,COMPLETE,2026-01-03,YES,none,YES,YES,YES,YES,15,YES,60,11,8,95%,YES,PARTIAL,88
+GA,Georgia,MD,Georgia Composite Medical Board,UNIFIED,TIER-1,YES,GA-MD-Renewal-Requirements-Narrative-2026-01-02.md,2026-01-02,920,85,COMPLETE,2026-01-02,NO,governance;soc2;iso;scope;gaps,NO,NO,NO,PARTIAL,15,YES,60,11,8,95%,YES,PARTIAL,74
 GA,Georgia,DO,Georgia Composite Medical Board,UNIFIED,TIER-1,NO,,,,,MISSING,,,,,,,,,,,,,,,,,
 GU,Guam,MD,Guam Board of Medical Examiners,UNIFIED,TIER-1,NO,,,,,MISSING,,,,,,,,,,,,,,,,,
 GU,Guam,DO,Guam Board of Medical Examiners,UNIFIED,TIER-1,NO,,,,,MISSING,,,,,,,,,,,,,,,,,
 HI,Hawaii,MD,Hawaii Board of Medical Examiners,UNIFIED,TIER-1,YES,HI-MD-Renewal-Requirements-Narrative-2026-01-02.md,2026-01-02,840,84,COMPLETE,2026-01-03,YES,none,YES,YES,YES,YES,15,YES,70,39,18,90%,YES,COMPLETE,84
 HI,Hawaii,DO,Hawaii Board of Medical Examiners,UNIFIED,TIER-1,NO,,,,,MISSING,,,,,,,,,,,,,,,,,
-ID,Idaho,MD,Idaho Board of Medicine,UNIFIED,TIER-1,YES,ID-MD-Renewal-Requirements-Narrative-2026-01-02.md,2026-01-02,738,85,COMPLETE,2026-01-03,YES,none,YES,YES,YES,YES,15,YES,43,12,20,85%,YES,COMPLETE,88
+ID,Idaho,MD,Idaho Board of Medicine,UNIFIED,TIER-1,YES,ID-MD-Renewal-Requirements-Narrative-2026-01-02.md,2026-01-02,738,85,COMPLETE,2026-01-02,NO,governance;soc2;iso;scope;gaps,NO,NO,NO,PARTIAL,15,YES,43,12,20,85%,YES,COMPLETE,75
 ID,Idaho,DO,Idaho Board of Medicine,UNIFIED,TIER-1,NO,,,,,MISSING,,,,,,,,,,,,,,,,,
 IL,Illinois,MD,Illinois Department of Financial and Professional Regulation,UNIFIED,TIER-3,YES,Illinois-MD-Renewal-Requirements-Narrative-2026-01-02.md,2026-01-02,,,COMPLETE,2026-01-02,,,,,,,,,,,,,,,
 IL,Illinois,DO,Illinois Department of Financial and Professional Regulation,UNIFIED,TIER-3,NO,,,,,MISSING,,,,,,,,,,,,,,,,,

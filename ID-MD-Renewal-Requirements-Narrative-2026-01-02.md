@@ -1,4 +1,6 @@
 ---
+# DOCUMENT METADATA
+document_type: "License Renewal Requirements - Narrative Research"
 state_abbr: "ID"
 state_name: "Idaho"
 tier: "TIER-1"
@@ -10,25 +12,191 @@ completion_percentage: 85
 status: "COMPREHENSIVE"
 version: "3.0"
 
-## BOARD INFORMATION
+# BOARD INFORMATION
 board_name: "Idaho Board of Medicine"
 board_abbr: "BOM"
 board_website: "https://dopl.idaho.gov/bom/"
+board_phone: "(208) 327-7000"
+board_email: "HP-Licensing@dopl.idaho.gov"
 renewal_portal: "https://elitepublic.bom.idaho.gov/IBOMPortal/Home.aspx/"
-phone: "(208) 327-7000"
-email: "HP-Licensing@dopl.idaho.gov"
+split_board_state: false
 
-## STATUTES & REGULATIONS
+# GOVERNANCE FRAMEWORK (v3.0 REQUIRED)
+governance:
+  framework: "State Medical Board Regulatory Framework"
+  authority_level: "STATE"
+  primary_statute: "Idaho Code Title 54, Chapter 18 (Medical Practice Act)"
+  supporting_statutes:
+    - "Idaho Code § 54-1841 (License Reinstatement)"
+    - "Idaho Code Title 54, Chapter 18 (Unified MD/DO Authority)"
+  administrative_code: "IDAPA 24.33.01.079 (Continuing Medical Education Required)"
+  full_code_cite: "Idaho Administrative Procedures Act (IDAPA) Title 24, Chapter 33, Rule 01.079 - CME Requirements; IDAPA Title 24, Chapter 34, Rule 01.400 - Fees"
+
+# TIER CLASSIFICATION (v3.0 REQUIRED)
+tier_classification:
+  tier_level: "TIER-1 - UNIFIED"
+  rationale: "Idaho operates a unified board for MD and DO physicians with simple biennial CME requirements and no mandatory topics beyond practice-relevance."
+  complexity_score: 3
+  max_complexity_score: 10
+  compared_against: "TIER Research Framework"
+  key_indicators:
+    - "Unified board structure with identical MD/DO requirements"
+    - "Simple 40-hour Category 1 requirement (all CME must be practice-relevant)"
+    - "Birthday-based biennial renewal system (effective July 1, 2025)"
+    - "Highly favorable board certification exemption (full 'in lieu of' exemption during certification cycle)"
+    - "Attestation-based renewal with discretionary audits"
+    - "No mandatory topics beyond practice-relevance qualifier"
+  why_tier_1: "Idaho has a straightforward unified board structure with simple CME requirements, no mandatory topics, and clear board certification exemptions. The birthday-based renewal system and attestation process minimize administrative complexity."
+  why_not_tier_2: "Idaho does not have split-board complexity requiring separate MD/DO research, nor does it impose mandatory topics or complex category distributions that would elevate complexity."
+
+# SOC2 COMPLIANCE CONTEXT (v3.0 REQUIRED)
+soc2_compliance:
+  scope: "License renewal requirements data collection and verification"
+  data_classification: "PUBLIC"
+  pii_present: false
+  phi_present: false
+  data_retention: "Source URLs and statutory citations retained for audit trail"
+  verification_controls: "Multi-source cross-validation and source hierarchy applied"
+  change_management: "Version-controlled with change tracking in frontmatter"
+  notes: "All data sourced from public regulatory websites and statutes. No licensee-specific information collected."
+
+# ISO STANDARDS ALIGNMENT (v3.0 REQUIRED)
+iso_standards:
+  applicable_standards:
+    - "ISO 9001:2015 (Quality Management - Research Documentation)"
+    - "ISO/IEC 27001:2022 (Information Security - Public Data Handling)"
+  approval_status: "Research methodology aligned with quality standards"
+  quality_objectives:
+    - "Accuracy: Multi-source validation for all factual claims"
+    - "Completeness: 85%+ comprehensive coverage per v3.0 rubric"
+    - "Traceability: All facts tagged with source citations and verification dates"
+  document_control: "Version-controlled with audit trail"
+
+# RESEARCH QUALITY METRICS (v3.0 REQUIRED)
+research_quality:
+  completeness_percentage: 85
+  validation_level: "COMPREHENSIVE"
+  source_count: 25
+  source_hierarchy_applied: true
+  cross_source_congruency_tracked: true
+  split_board_comparison_included: false
+  fsmb_validation: true
+  tier_research_framework_applied: true
+
+# SCOPE DEFINITION (v3.0 REQUIRED)
+scope:
+  included:
+    - "License renewal frequency and deadlines (birthday-based biennial system)"
+    - "CME requirements (40 hours Category 1, practice-relevant)"
+    - "Board certification exemption (ABMS/AOA/Royal College full exemption)"
+    - "Renewal fees ($400 biennial) and late penalties"
+    - "Grace periods and lapsed license procedures (<5 years vs >5 years)"
+    - "CME audit and verification procedures (attestation-based with discretionary audits)"
+    - "Exemptions and alternatives (board certification, residency/fellowship)"
+    - "Practice-relevance CME qualifier (unique requirement)"
+    - "Lifecycle phases (renewal window, expiration, reinstatement)"
+  excluded:
+    - "DO requirements (covered in this document - unified board with identical requirements)"
+    - "NP (Nurse Practitioner) requirements"
+    - "PA (Physician Assistant) requirements"
+    - "Initial licensing examination requirements"
+    - "Disciplinary procedures (beyond CME non-compliance)"
+    - "Scope of practice regulations"
+
+# STATUTES & REGULATIONS
 primary_statute: "Idaho Code Title 54, Chapter 18 (Medical Practice Act)"
-administrative_code: "IDAPA 24.33.01.079 (CME Required)"
-fee_regulation: "IDAPA 24.34.01.400 (Fees)"
+supporting_statutes:
+  - "Idaho Code § 54-1841 (License Reinstatement)"
+administrative_code: "IDAPA 24.33.01.079 (CME Required); IDAPA 24.34.01.400 (Fees)"
 
-## KEY DATES
+# KEY DATES & CYCLES
 renewal_cycle_months: 24
 renewal_deadline: "Birthday (biennial - effective July 1, 2025)"
-renewal_window: "60 days prior to birthday"
-biennial_fee: "$400"
-category_1_minimum: "40 hours (all CME must be Category 1)"
+renewal_period: "60 days prior to birthday"
+grace_period_days: null # CRITICAL GAP - not documented
+grace_period_fee: null # CRITICAL GAP - not documented
+renewal_fee: "$400 (biennial)"
+late_fee: null # CRITICAL GAP - not documented
+reinstatement_window: "<5 years: reinstatement with back fees + CME; >5 years: new application required"
+
+# CME REQUIREMENTS SUMMARY
+total_cme_hours: 40
+category_1_minimum: 40 # All CME must be Category 1
+mandatory_topics: [] # No mandatory topics beyond practice-relevance
+
+# CRITICAL GAPS (v3.0 REQUIRED - populated from document body)
+critical_gaps:
+  - gap_id: "GAP-ID-001"
+    title: "Grace Period After Birthday Expiration"
+    description: "Whether Idaho provides a grace period after the birthday expiration date for late renewal is not documented"
+    impact: "MEDIUM"
+    rules_engine_impact: "Cannot advise physicians on practice continuity after birthday expiration; unclear if immediate lapse or grace period exists"
+  - gap_id: "GAP-ID-002"
+    title: "Late Renewal Penalty Fee Amount"
+    description: "Late renewal penalty fees for renewal after the birthday expiration date are not documented"
+    impact: "LOW"
+    rules_engine_impact: "Cannot calculate late renewal costs; if no grace period, may not be applicable"
+  - gap_id: "GAP-ID-003"
+    title: "Reinstatement Fee Amount"
+    description: "Specific reinstatement fee amount for licenses lapsed <5 years is not documented"
+    impact: "MEDIUM"
+    rules_engine_impact: "Cannot provide complete reinstatement cost estimates; physicians cannot budget for reactivation"
+  - gap_id: "GAP-ID-004"
+    title: "Practice-Relevant CME Definition and Enforcement"
+    description: "How the board defines or enforces 'practice-relevant' CME is not documented (e.g., Does a family physician's emergency medicine CME qualify?)"
+    impact: "MEDIUM"
+    rules_engine_impact: "Cannot provide definitive guidance on acceptable CME scope; physicians must use professional judgment without clear criteria"
+  - gap_id: "GAP-ID-005"
+    title: "CME Record Retention Period"
+    description: "Specific record retention period (how many years physicians must keep CME documentation) is not documented"
+    impact: "MEDIUM"
+    rules_engine_impact: "Cannot advise on record-keeping obligations; recommend conservative 6-year retention (3 cycles)"
+
+# HIGH PRIORITY GAPS (v3.0 REQUIRED)
+high_gaps:
+  - gap_id: "GAP-ID-006"
+    title: "Military Service CME Exemption or Credit"
+    description: "Whether active-duty military physicians receive CME credit or exemption is not documented"
+    impact: "HIGH"
+  - gap_id: "GAP-ID-007"
+    title: "Hardship Waiver Policy"
+    description: "Whether Idaho grants hardship waivers for illness, disability, or extenuating circumstances is not documented"
+    impact: "HIGH"
+  - gap_id: "GAP-ID-008"
+    title: "Audit Selection Percentage and Criteria"
+    description: "The percentage of renewals audited annually or the audit selection criteria are not publicly disclosed"
+    impact: "HIGH"
+
+# MEDIUM PRIORITY GAPS (v3.0 REQUIRED)
+medium_gaps:
+  - gap_id: "GAP-ID-009"
+    title: "Retired/Inactive Physician CME Exemption"
+    description: "Whether physicians with retired or inactive license status are exempt from CME requirements (Idaho eliminated inactive status July 2024)"
+    impact: "MEDIUM"
+  - gap_id: "GAP-ID-010"
+    title: "Mandatory CME Topics Confirmation"
+    description: "Idaho does not appear to have mandatory CME topics (ethics, opioid prescribing, etc.) beyond practice-relevance - confirmation needed"
+    impact: "MEDIUM"
+  - gap_id: "GAP-ID-011"
+    title: "Telemedicine-Specific CME Requirements"
+    description: "Idaho does not appear to have telemedicine-specific mandatory CME requirements - confirmation needed"
+    impact: "MEDIUM"
+  - gap_id: "GAP-ID-012"
+    title: "Cultural Competency CME Requirements"
+    description: "Idaho does not appear to have mandatory cultural competency CME requirements - confirmation needed"
+    impact: "MEDIUM"
+
+# VERSION HISTORY
+version_history:
+  - version: "3.0"
+    date: "2026-01-03"
+    changes: "Applied v3.0 frontmatter template: added governance framework, tier classification, SOC2/ISO compliance sections, scope definition, and structured gap arrays (critical/high/medium) for rules engine integration"
+  - version: "2.0"
+    date: "2026-01-02"
+    changes: "Comprehensive research expansion to 85% completion with extensive evidence citations"
+  - version: "1.0"
+    date: "2026-01-02"
+    changes: "Initial comprehensive research with birthday-based biennial system documentation"
 
 ---
 

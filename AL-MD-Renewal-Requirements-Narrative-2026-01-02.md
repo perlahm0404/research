@@ -1,4 +1,6 @@
 ---
+# DOCUMENT METADATA
+document_type: "License Renewal Requirements - Narrative Research"
 state_abbr: "AL"
 state_name: "Alabama"
 tier: "TIER-1"
@@ -8,29 +10,178 @@ last_verified: "2026-01-02"
 researcher: "Claude Code"
 completion_percentage: 95
 status: "COMPREHENSIVE"
+version: "3.0"
 
-## BOARD INFORMATION
+# BOARD INFORMATION
 board_name: "Alabama Board of Medical Examiners & Medical Licensure Commission"
 board_abbr: "ALBME"
 board_website: "https://www.albme.gov"
-board_contact_phone: "(334) 242-4116"
-board_contact_email: "contact@albme.gov"
+board_phone: "(334) 242-4116"
+board_email: "contact@albme.gov"
+renewal_portal: "https://www.albme.gov/licensing/md-do/licensing-md-do-license-renewals/"
+split_board_state: false
 
-## STATUTES & REGULATIONS
-primary_statute: "Ala. Code § 34-24-75"
-statute_title: "Continuing Medical Education"
+# GOVERNANCE FRAMEWORK (v3.0 REQUIRED)
+governance:
+  framework: "State Medical Board Regulatory Framework"
+  authority_level: "STATE"
+  primary_statute: "Ala. Code § 34-24-75 (Continuing Medical Education)"
+  supporting_statutes:
+    - "Ala. Code § 34-24-337 (License Renewal)"
+    - "Ala. Code § 34-24-294 (Professional Boundaries Training)"
+    - "Ala. Code § 34-24-290 (Alabama Controlled Substances Certificate requirement)"
+  administrative_code: "Ala. Admin. Code r. 540-X-14 (CME Requirements)"
+  full_code_cite: "Alabama Administrative Code Rule 540-X-14 - Continuing Medical Education"
+
+# TIER CLASSIFICATION (v3.0 REQUIRED)
+tier_classification:
+  tier_level: "TIER-1 - UNIFIED"
+  rationale: "Alabama operates a unified medical board for MD and DO physicians with straightforward annual CME requirements and minimal mandatory topics (professional boundaries one-time, controlled substance biennial for ACSC holders)."
+  complexity_score: 3
+  max_complexity_score: 10
+  compared_against: "TIER Research Framework"
+  key_indicators:
+    - "Unified board structure with identical MD/DO requirements"
+    - "Simple annual CME requirement: 25 hours AMA PRA Category 1 per calendar year"
+    - "Two mandatory topics: 2-hour professional boundaries (one-time, deadline Dec 31, 2025) and 2-hour controlled substance (biennial for ACSC holders)"
+    - "Annual renewal cycle (December 31 deadline) with January grace period"
+    - "Self-reporting attestation model with random annual audits"
+    - "ABMS certification/MOC activities count toward CME requirement"
+  why_tier_1: "Alabama has a unified board with simple annual CME requirements. The 25-hour Category 1 requirement is straightforward, and mandatory topics are minimal (one-time professional boundaries and biennial controlled substance for ACSC holders). The annual renewal cycle and attestation model are standard."
+  why_not_tier_2: "Alabama does not have split MD/DO boards requiring separate research, nor does it have complex mandatory topic requirements or category distributions that would elevate complexity. The unified board structure and clear requirements keep it at TIER-1 level."
+
+# SOC2 COMPLIANCE CONTEXT (v3.0 REQUIRED)
+soc2_compliance:
+  scope: "License renewal requirements data collection and verification"
+  data_classification: "PUBLIC"
+  pii_present: false
+  phi_present: false
+  data_retention: "Source URLs and statutory citations retained for audit trail"
+  verification_controls: "Multi-source cross-validation and source hierarchy applied"
+  change_management: "Version-controlled with change tracking in frontmatter"
+  notes: "All data sourced from public regulatory websites and statutes. No licensee-specific information collected."
+
+# ISO STANDARDS ALIGNMENT (v3.0 REQUIRED)
+iso_standards:
+  applicable_standards:
+    - "ISO 9001:2015 (Quality Management - Research Documentation)"
+    - "ISO/IEC 27001:2022 (Information Security - Public Data Handling)"
+  approval_status: "Research methodology aligned with quality standards"
+  quality_objectives:
+    - "Accuracy: Multi-source validation for all factual claims"
+    - "Completeness: 95% comprehensive coverage per v3.0 rubric"
+    - "Traceability: All facts tagged with source citations and verification dates"
+  document_control: "Version-controlled with audit trail"
+
+# RESEARCH QUALITY METRICS (v3.0 REQUIRED)
+research_quality:
+  completeness_percentage: 95
+  validation_level: "COMPREHENSIVE"
+  source_count: 8
+  source_hierarchy_applied: true
+  cross_source_congruency_tracked: true
+  split_board_comparison_included: false
+  fsmb_validation: true
+  tier_research_framework_applied: true
+
+# SCOPE DEFINITION (v3.0 REQUIRED)
+scope:
+  included:
+    - "License renewal frequency and deadlines (annual, December 31)"
+    - "CME requirements (25 hours AMA PRA Category 1 per calendar year)"
+    - "Mandatory topics (2-hour professional boundaries one-time; 2-hour controlled substance biennial for ACSC holders)"
+    - "Renewal fees and late penalties (grace period January 1-31 with late fee up to $200)"
+    - "Grace periods and license expiration (January 31 grace period end; February 1 expiration)"
+    - "CME audit and verification procedures (attestation model with random audits)"
+    - "ABMS certification/MOC credit toward CME"
+    - "Lapsed license reinstatement procedures"
+    - "Alabama Controlled Substances Certificate (ACSC) CME requirement"
+  excluded:
+    - "DO requirements (covered in this document - unified board with identical requirements)"
+    - "NP (Nurse Practitioner) requirements"
+    - "PA (Physician Assistant) requirements"
+    - "Initial licensing examination requirements"
+    - "Disciplinary procedures (beyond CME non-compliance)"
+    - "Scope of practice regulations"
+
+# STATUTES & REGULATIONS
+primary_statute: "Ala. Code § 34-24-75 (Continuing Medical Education)"
+supporting_statutes:
+  - "Ala. Code § 34-24-337 (License Renewal)"
+  - "Ala. Code § 34-24-294 (Professional Boundaries Training)"
+  - "Ala. Code § 34-24-290 (Alabama Controlled Substances Certificate)"
 administrative_code: "Ala. Admin. Code r. 540-X-14 (CME Requirements)"
-statute_section_renewal: "Ala. Code § 34-24-337 (License Renewal)"
-unified_board: true
-board_partner: "Alabama Medical Licensure Commission (separate entity)"
 
-## KEY DATES
-renewal_deadline: "December 31 (annually)"
+# KEY DATES & CYCLES
 renewal_cycle_months: 12
-grace_period_end: "January 31"
-professional_boundaries_deadline_existing: "December 31, 2025"
-professional_boundaries_deadline_new_licensees: "12 months after licensure"
-cme_calendar_year: "January 1 - December 31"
+renewal_deadline: "December 31 (annually)"
+renewal_period: "October 1 - December 31"
+grace_period_days: 31 # January 1-31
+grace_period_fee: "Up to $200 (late fee)"
+renewal_fee: null # CRITICAL GAP - specific fee amount not documented
+late_fee: "Up to $200"
+reinstatement_window: "After February 1 expiration; requires board approval and reinstatement fee"
+
+# CME REQUIREMENTS SUMMARY
+total_cme_hours: 25
+category_1_minimum: 25 # All hours must be AMA PRA Category 1 or equivalent
+mandatory_topics:
+  - topic: "Professional Boundaries"
+    hours: 2
+    frequency: "one-time (deadline: December 31, 2025 for existing licensees; 12 months after licensure for new licensees)"
+  - topic: "Controlled Substance Prescribing"
+    hours: 2
+    frequency: "biennial (Alabama Controlled Substances Certificate holders only)"
+
+# CRITICAL GAPS (v3.0 REQUIRED - populated from document body)
+critical_gaps:
+  - gap_id: "GAP-AL-001"
+    title: "ABMS Board Certification CME Exemption Details"
+    description: "Whether ABMS board certification provides a full exemption from the 25-hour requirement or only partial credit toward the requirement is not explicitly stated"
+    impact: "MEDIUM"
+    rules_engine_impact: "Cannot definitively advise board-certified physicians on whether they are fully exempt or receive partial credit; statute states MOC 'counts toward' but doesn't specify full exemption"
+  - gap_id: "GAP-AL-002"
+    title: "Resident Physician CME Requirements"
+    description: "Whether resident/fellow physicians are exempt from the general 25-hour annual CME requirement is not documented"
+    impact: "MEDIUM"
+    rules_engine_impact: "Cannot advise physicians in training on CME obligations; most states exempt residents, but Alabama exemption not confirmed"
+  - gap_id: "GAP-AL-003"
+    title: "CME Requirement for Newly Licensed Physicians"
+    description: "Specific details on first-year grace periods or reduced requirements for newly licensed physicians are not explicitly documented"
+    impact: "MEDIUM"
+    rules_engine_impact: "Cannot advise new licensees on whether CME is required in first partial year or if prorated requirements apply"
+  - gap_id: "GAP-AL-004"
+    title: "CME Non-Compliance Penalties"
+    description: "Specific penalties for CME non-compliance during audit are not detailed in statute or board materials reviewed"
+    impact: "MEDIUM"
+    rules_engine_impact: "Cannot warn physicians of specific consequences for audit failures; likely disciplinary action but specifics unknown"
+
+# HIGH PRIORITY GAPS (v3.0 REQUIRED)
+high_gaps:
+  - gap_id: "GAP-AL-005"
+    title: "Specific Renewal Fee Amounts"
+    description: "Specific renewal fee amounts are not documented in statute or publicly available board materials reviewed"
+    impact: "HIGH"
+  - gap_id: "GAP-AL-006"
+    title: "Specific Reinstatement Fee Amounts"
+    description: "Specific reinstatement fee amounts are not documented"
+    impact: "HIGH"
+
+# MEDIUM PRIORITY GAPS (v3.0 REQUIRED)
+medium_gaps:
+  - gap_id: "GAP-AL-007"
+    title: "DEA vs. Alabama ACSC Distinction"
+    description: "The statute does not explicitly distinguish between DEA registration requirements and Alabama ACSC registration, though the two are related licensing requirements"
+    impact: "MEDIUM"
+
+# VERSION HISTORY
+version_history:
+  - version: "3.0"
+    date: "2026-01-03"
+    changes: "Applied v3.0 frontmatter template: added governance framework, tier classification, SOC2/ISO compliance sections, scope definition, and structured gap arrays (critical/high/medium) for rules engine integration"
+  - version: "1.0"
+    date: "2026-01-02"
+    changes: "Initial comprehensive research (95% completion) with annual CME requirements and professional boundaries documentation"
 
 ---
 

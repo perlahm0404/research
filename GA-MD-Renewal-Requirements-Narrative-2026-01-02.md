@@ -1,4 +1,6 @@
 ---
+# DOCUMENT METADATA
+document_type: "License Renewal Requirements - Narrative Research"
 state_abbr: "GA"
 state_name: "Georgia"
 tier: "TIER-1"
@@ -10,24 +12,192 @@ completion_percentage: 85
 status: "COMPREHENSIVE"
 version: "3.0"
 
-## BOARD INFORMATION
+# BOARD INFORMATION
 board_name: "Georgia Composite Medical Board"
 board_abbr: "GCMB"
 board_website: "https://medicalboard.georgia.gov/"
+board_phone: "(678) 999-3440"
+board_email: null
 renewal_portal: "https://gateway.medicalboard.georgia.gov/"
-phone: "(678) 999-3440"
+split_board_state: false
 
-## STATUTES & REGULATIONS
+# GOVERNANCE FRAMEWORK (v3.0 REQUIRED)
+governance:
+  framework: "State Medical Board Regulatory Framework"
+  authority_level: "STATE"
+  primary_statute: "O.C.G.A. § 43-34-11 (Continuing Medical Education)"
+  supporting_statutes:
+    - "O.C.G.A. § 43-34-8 (Authority to Refuse License or Issue Discipline)"
+    - "O.C.G.A. § 43-34-7 (License Renewal Provisions)"
+    - "O.C.G.A. §§ 43-34-280 through 43-34-290 (Pain Management Clinics)"
+    - "O.C.G.A. § 43-1-19 (Reinstatement of Licenses)"
+  administrative_code: "Georgia Board Rule 360-15 (CME Requirements); Georgia Board Rule 360-3-.06 (Pain Management)"
+  full_code_cite: "Georgia Compiled Rules & Regulations Rule 360-15-.01 (CME Requirements), Rule 360-15-.02 (CME Compliance and Audit), Rule 360-3-.06 (Pain Management), Rule 360-2-.02 (License Renewal Procedures)"
+
+# TIER CLASSIFICATION (v3.0 REQUIRED)
+tier_classification:
+  tier_level: "TIER-1 - UNIFIED"
+  rationale: "Georgia operates a unified board for MD and DO physicians with straightforward biennial CME requirements, though it includes practice-specific pain management rules for certain prescribers."
+  complexity_score: 5
+  max_complexity_score: 10
+  compared_against: "TIER Research Framework"
+  key_indicators:
+    - "Unified board structure with identical MD/DO requirements"
+    - "40-hour biennial requirement with 25% Category 1 minimum (10 hours)"
+    - "Practice-specific requirement: Additional 20 hours pain management CME for pain clinics OR 50%+ opioid practices"
+    - "One-time 3-hour controlled substance prescribing CME for DEA holders"
+    - "Strict 90-day penalty period with automatic revocation on day 91"
+    - "Random audit system with 5-year certificate retention requirement"
+    - "CE Broker partnership (voluntary participation)"
+  why_tier_1: "Georgia maintains a unified board with standardized CME requirements. While it has practice-specific pain management rules, these apply to a subset of practitioners and do not create split-board complexity. The core requirements are straightforward and well-documented."
+  why_not_tier_2: "Georgia does not have split MD/DO boards requiring separate research, and the pain management requirements are practice-specific rather than license-type specific. The unified board structure and clear regulatory framework keep complexity at TIER-1 level."
+
+# SOC2 COMPLIANCE CONTEXT (v3.0 REQUIRED)
+soc2_compliance:
+  scope: "License renewal requirements data collection and verification"
+  data_classification: "PUBLIC"
+  pii_present: false
+  phi_present: false
+  data_retention: "Source URLs and statutory citations retained for audit trail"
+  verification_controls: "Multi-source cross-validation and source hierarchy applied"
+  change_management: "Version-controlled with change tracking in frontmatter"
+  notes: "All data sourced from public regulatory websites and statutes. No licensee-specific information collected."
+
+# ISO STANDARDS ALIGNMENT (v3.0 REQUIRED)
+iso_standards:
+  applicable_standards:
+    - "ISO 9001:2015 (Quality Management - Research Documentation)"
+    - "ISO/IEC 27001:2022 (Information Security - Public Data Handling)"
+  approval_status: "Research methodology aligned with quality standards"
+  quality_objectives:
+    - "Accuracy: Multi-source validation for all factual claims"
+    - "Completeness: 85%+ comprehensive coverage per v3.0 rubric"
+    - "Traceability: All facts tagged with source citations and verification dates"
+  document_control: "Version-controlled with audit trail"
+
+# RESEARCH QUALITY METRICS (v3.0 REQUIRED)
+research_quality:
+  completeness_percentage: 85
+  validation_level: "COMPREHENSIVE"
+  source_count: 30
+  source_hierarchy_applied: true
+  cross_source_congruency_tracked: true
+  split_board_comparison_included: false
+  fsmb_validation: true
+  tier_research_framework_applied: true
+
+# SCOPE DEFINITION (v3.0 REQUIRED)
+scope:
+  included:
+    - "License renewal frequency and deadlines (biennial by birth month)"
+    - "CME requirements (40 hours biennial, 25% Category 1 minimum)"
+    - "Practice-specific pain management requirements (additional 20 hours for pain clinics/high-opioid practices)"
+    - "One-time controlled substance prescribing CME (3 hours for DEA holders)"
+    - "Renewal fees and late penalties (90-day penalty period)"
+    - "Grace periods and automatic revocation (day 91 after expiration)"
+    - "CME audit and verification procedures (random audits, 5-year retention)"
+    - "Exemptions and alternatives (residency, first renewal, board cert for pain, hardship/military waivers)"
+    - "CE Broker tracking system (voluntary participation)"
+    - "Pain clinic licensing requirements and definitions"
+    - "Lapsed license reinstatement procedures (after 90-day revocation)"
+  excluded:
+    - "DO requirements (covered in this document - unified board with identical requirements)"
+    - "NP (Nurse Practitioner) requirements"
+    - "PA (Physician Assistant) requirements"
+    - "Initial licensing examination requirements"
+    - "Disciplinary procedures (beyond CME non-compliance)"
+    - "Scope of practice regulations"
+
+# STATUTES & REGULATIONS
 primary_statute: "O.C.G.A. § 43-34-11 (Continuing Medical Education)"
-administrative_code: "Georgia Board Rule 360-15 (CME Requirements)"
-pain_management_rule: "Georgia Board Rule 360-3-.06 (Pain Management)"
-pain_clinic_statute: "O.C.G.A. §§ 43-34-280 through 43-34-290 (Pain Management Clinics)"
+supporting_statutes:
+  - "O.C.G.A. § 43-34-8 (Authority to Refuse License or Issue Discipline)"
+  - "O.C.G.A. §§ 43-34-280 through 43-34-290 (Pain Management Clinics)"
+  - "O.C.G.A. § 43-1-19 (Reinstatement of Licenses)"
+administrative_code: "Georgia Board Rule 360-15 (CME Requirements); Georgia Board Rule 360-3-.06 (Pain Management)"
 
-## KEY DATES
+# KEY DATES & CYCLES
 renewal_cycle_months: 24
 renewal_deadline: "Last day of birth month (biennial)"
-penalty_period: "90 days (3 months)"
-category_1_minimum: "25% (10 hours)"
+renewal_period: "Biennial by birth month"
+grace_period_days: 90 # Penalty period - cannot practice; automatic revocation day 91
+grace_period_fee: null # CRITICAL GAP - late fee amount not documented
+renewal_fee: null # CRITICAL GAP - specific fee amount not documented
+late_fee: null # CRITICAL GAP - not documented
+reinstatement_window: "After 90-day penalty period; requires reinstatement application ($400 fee) with board discretion"
+
+# CME REQUIREMENTS SUMMARY
+total_cme_hours: 40
+category_1_minimum: 10 # 25% minimum
+mandatory_topics:
+  - topic: "Controlled Substance Prescribing Practices"
+    hours: 3
+    frequency: "one-time (DEA certificate holders only)"
+
+# CRITICAL GAPS (v3.0 REQUIRED - populated from document body)
+critical_gaps:
+  - gap_id: "GAP-GA-001"
+    title: "50%+ Opioid Patient Threshold Calculation Method"
+    description: "How the board determines 50%+ opioid patient threshold for individual physicians (not pain clinics) is not documented"
+    impact: "MEDIUM"
+    rules_engine_impact: "Physicians may be uncertain whether they meet the 50% threshold requiring additional 20 hours pain management CME; cannot provide definitive compliance guidance"
+  - gap_id: "GAP-GA-002"
+    title: "Board Certification General CME Exemption"
+    description: "Whether ABMS/AOA board certification in any specialty provides exemption or credit toward the general 40-hour CME requirement is not documented"
+    impact: "MEDIUM"
+    rules_engine_impact: "Many states offer board cert credit; cannot advise if Georgia provides similar benefit beyond pain certification exemption"
+  - gap_id: "GAP-GA-003"
+    title: "Reinstatement CME Makeup Requirements"
+    description: "Specific CME makeup requirements for physicians reinstating after 90-day revocation are not documented"
+    impact: "MEDIUM"
+    rules_engine_impact: "Cannot advise physicians reinstating after revocation whether they must make up all missed CME or only current cycle requirements"
+  - gap_id: "GAP-GA-004"
+    title: "Professional Boundaries CME Hours and Frequency"
+    description: "Specific hours and frequency of professional boundaries CME requirement are not documented"
+    impact: "MEDIUM"
+    rules_engine_impact: "Referenced as mandatory topic but hours/frequency not specified; cannot provide complete compliance checklist"
+
+# HIGH PRIORITY GAPS (v3.0 REQUIRED)
+high_gaps:
+  - gap_id: "GAP-GA-005"
+    title: "Reinstatement Application Processing Timeline"
+    description: "Timeline for reinstatement application processing is not documented"
+    impact: "HIGH"
+  - gap_id: "GAP-GA-006"
+    title: "Audit Selection Percentage"
+    description: "Percentage of renewal applications audited annually is not documented (Rule states 'fixed percentage' but number not specified)"
+    impact: "HIGH"
+
+# MEDIUM PRIORITY GAPS (v3.0 REQUIRED)
+medium_gaps:
+  - gap_id: "GAP-GA-007"
+    title: "Biennial Physician Renewal Fee Amount"
+    description: "Specific biennial physician renewal fee amount for 2026 is not documented in search results (publicly available on board website)"
+    impact: "MEDIUM"
+  - gap_id: "GAP-GA-008"
+    title: "Late Renewal Penalty Fee Amount"
+    description: "Late renewal penalty fee amount is not documented (confirmed late fee exists but amount not in results)"
+    impact: "MEDIUM"
+  - gap_id: "GAP-GA-009"
+    title: "Telemedicine-Specific CME Requirement"
+    description: "Whether Georgia requires telemedicine-specific CME is not documented (likely not required)"
+    impact: "MEDIUM"
+  - gap_id: "GAP-GA-010"
+    title: "Cultural Competency/Implicit Bias CME Requirement"
+    description: "Whether Georgia requires cultural competency or implicit bias CME is not documented (likely not required)"
+    impact: "MEDIUM"
+
+# VERSION HISTORY
+version_history:
+  - version: "3.0"
+    date: "2026-01-03"
+    changes: "Applied v3.0 frontmatter template: added governance framework, tier classification, SOC2/ISO compliance sections, scope definition, and structured gap arrays (critical/high/medium) for rules engine integration"
+  - version: "2.0"
+    date: "2026-01-02"
+    changes: "Comprehensive research expansion to 85% completion with extensive evidence citations"
+  - version: "1.0"
+    date: "2026-01-02"
+    changes: "Initial comprehensive research with pain management and CE Broker documentation"
 
 ---
 

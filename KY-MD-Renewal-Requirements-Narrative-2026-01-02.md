@@ -1,4 +1,6 @@
 ---
+# DOCUMENT METADATA
+document_type: "License Renewal Requirements - Narrative Research"
 state_abbr: "KY"
 state_name: "Kentucky"
 tier: "TIER-1"
@@ -8,37 +10,184 @@ last_verified: "2026-01-02"
 researcher: "Claude Code"
 completion_percentage: 85
 status: "COMPREHENSIVE"
-document_version: "3.0"
+version: "3.0"
 
-## BOARD INFORMATION
+# BOARD INFORMATION
 board_name: "Kentucky Board of Medical Licensure"
 board_abbr: "KBML"
 board_website: "https://kbml.ky.gov/"
-board_contact_phone: "(502) 429-7150"
-board_contact_email: "beverlyl.collier@ky.gov"
-online_renewal_portal: "https://services.kbml.ky.gov/ebusiness/Login.aspx"
+board_phone: "(502) 429-7150"
+board_email: "beverlyl.collier@ky.gov"
+renewal_portal: "https://services.kbml.ky.gov/ebusiness/Login.aspx"
+split_board_state: false
 
-## STATUTES & REGULATIONS
-primary_statute: "Kentucky Revised Statutes § 311.601 (CME Authority)"
-administrative_code: "201 KAR 9:310 (Continuing Medical Education)"
-renewal_regulation: "201 KAR 9:051 (License Renewal and Registration)"
-reinstatement_regulation: "201 KAR 9:051 (Inactive License Reregistration)"
+# GOVERNANCE FRAMEWORK
+governance:
+  framework: "State Medical Board Regulatory Framework"
+  authority_level: "STATE"
+  primary_statute: "Kentucky Revised Statutes § 311.601"
+  supporting_statutes:
+    - "Kentucky Revised Statutes Chapter 311 (Medical Practice)"
+    - "KRS Chapter 218A (Controlled Substances)"
+  administrative_code: "201 KAR 9:310"
+  full_code_cite: "KRS § 311.601 and 201 KAR 9:310 (Continuing Medical Education); 201 KAR 9:051 (License Renewal and Registration)"
 
-## KEY DATES
+# TIER CLASSIFICATION
+tier_classification:
+  tier_level: "TIER-1 - UNIFIED"
+  rationale: "Kentucky operates a unified board for MD and DO physicians with identical CME requirements and straightforward regulatory structure."
+  complexity_score: 3
+  max_complexity_score: 10
+  compared_against: "TIER Research Framework"
+  key_indicators:
+    - "Single unified board for MD and DO physicians"
+    - "Clear 60-hour triennial requirement with 30-hour Category 1 minimum"
+    - "Two mandatory topics: 4.5 hours controlled substance (all prescribers) and 3 hours primary care prescribing (one-time)"
+    - "Transparent penalty escalation structure ($50 late fee → $200 fine + 6 months → suspension)"
+    - "Board certification alternative provides full 60-hour credit"
+  why_tier_1: "Unified board structure with clear CME requirements, transparent enforcement, and straightforward triennial renewal cycle."
+  why_not_tier_2: "No split-board complexity or separate MD/DO boards requiring cross-comparison."
+
+# SOC2 COMPLIANCE CONTEXT
+soc2_compliance:
+  scope: "License renewal requirements data collection and verification"
+  data_classification: "PUBLIC"
+  pii_present: false
+  phi_present: false
+  data_retention: "Source URLs and statutory citations retained for audit trail"
+  verification_controls: "Multi-source cross-validation and source hierarchy applied"
+  change_management: "Version-controlled with change tracking in frontmatter"
+  notes: "All data sourced from public regulatory websites and statutes. No licensee-specific information collected."
+
+# ISO STANDARDS ALIGNMENT
+iso_standards:
+  applicable_standards:
+    - "ISO 9001:2015 (Quality Management - Research Documentation)"
+    - "ISO/IEC 27001:2022 (Information Security - Public Data Handling)"
+  approval_status: "Research methodology aligned with quality standards"
+  quality_objectives:
+    - "Accuracy: Multi-source validation for all factual claims"
+    - "Completeness: 85% comprehensive coverage per v3.0 rubric"
+    - "Traceability: All facts tagged with source citations and verification dates"
+  document_control: "Version-controlled with audit trail"
+
+# RESEARCH QUALITY METRICS
+research_quality:
+  completeness_percentage: 85
+  validation_level: "COMPREHENSIVE"
+  source_count: 20
+  source_hierarchy_applied: true
+  cross_source_congruency_tracked: true
+  split_board_comparison_included: false
+  fsmb_validation: true
+  tier_research_framework_applied: true
+
+# SCOPE DEFINITION
+scope:
+  included:
+    - "License renewal frequency and deadlines (triennial)"
+    - "CME requirements (60 hours total, 30 hours Category 1 minimum)"
+    - "Renewal fees and late penalties ($150 renewal, $50 grace period fee)"
+    - "Grace periods and lapsed license procedures (31-day grace period March 1-April 1)"
+    - "CME audit and verification procedures"
+    - "Exemptions and alternatives (board certification = 60 hours credit)"
+    - "State-specific mandatory topics (4.5 hours KASPER/pain/addiction for prescribers)"
+    - "Primary care one-time requirements (3 hours prescribing education within 3 years)"
+    - "Lifecycle phases (new licensee, standard renewal, inactive reregistration)"
+    - "Penalty escalation structure ($50 → $200 + 6 months → suspension)"
+  excluded:
+    - "DO requirements (unified board - same requirements as MD)"
+    - "NP (Nurse Practitioner) requirements"
+    - "PA (Physician Assistant) requirements"
+    - "Initial licensing examination requirements"
+    - "Disciplinary procedures (beyond CME non-compliance)"
+    - "Scope of practice regulations"
+  split_board_note: "N/A - Kentucky operates unified MD/DO board"
+
+# STATUTES & REGULATIONS
+primary_statute: "Kentucky Revised Statutes § 311.601"
+supporting_statutes:
+  - "Kentucky Revised Statutes Chapter 311 (Medical Practice)"
+  - "KRS Chapter 218A (Controlled Substances)"
+administrative_code: "201 KAR 9:310 (Continuing Medical Education); 201 KAR 9:051 (License Renewal and Registration)"
+
+# KEY DATES & CYCLES
 renewal_cycle_months: 36
-cme_cycle_start: "January 1, 2024"
-cme_cycle_end: "December 31, 2026"
-license_expiration: "February 28 (triennial)"
 renewal_deadline: "March 1"
-grace_period_start: "March 1"
-grace_period_end: "April 1"
+renewal_period: "January 1, 2024 - December 31, 2026 (current triennial cycle)"
+grace_period_days: 31
 grace_period_fee: "$50"
 renewal_fee: "$150"
-category_1_minimum: "30 hours"
-total_hours_required: "60 hours"
+late_fee: "$200 fine + 6 months compliance period after grace period"
+reinstatement_window: "Inactive license reregistration process - board approval required"
 
-## VERSION HISTORY
+# CME REQUIREMENTS SUMMARY
+total_cme_hours: 60
+category_1_minimum: 30
+mandatory_topics:
+  - topic: "KASPER/Pain Management/Addiction (Controlled Substance Prescribing)"
+    hours: 4.5
+    frequency: "triennial (every 3 years)"
+  - topic: "Primary Care Prescribing Education (Primary Care Physicians Only)"
+    hours: 3
+    frequency: "one-time (within 3 years of initial licensure for physicians licensed after July 1, 1996)"
+
+# CRITICAL GAPS
+critical_gaps:
+  - gap_id: "GAP-KY-001"
+    title: "Board Certification + Controlled Substance Interaction"
+    description: "Whether board certification (60-hour credit) also satisfies the mandatory 4.5-hour controlled substance requirement for physicians who prescribe controlled substances - interaction not addressed in regulations"
+    impact: "HIGH"
+    rules_engine_impact: "Affects board-certified physicians who prescribe controlled substances; rules engine needs to know if 4.5 hrs is mandatory regardless of board cert"
+  - gap_id: "GAP-KY-003"
+    title: "Inactive License CME Makeup Requirements by Duration"
+    description: "Specific CME makeup requirements for inactive licenses (lapsed <1yr, 1-3yr, >3yr) not documented - 201 KAR 9:051 Section 2 provides general fitness requirement but no CME makeup tiers"
+    impact: "HIGH"
+    rules_engine_impact: "Cannot calculate makeup requirements for physicians returning to practice; affects reactivation workflow"
+
+# HIGH PRIORITY GAPS
+high_gaps:
+  - gap_id: "GAP-KY-002"
+    title: "CME Audit Response Timeline"
+    description: "Number of days physicians have to respond to CME audit request with documentation not specified in 201 KAR 9:310 or publicly available board audit procedures"
+    impact: "HIGH"
+  - gap_id: "GAP-KY-004"
+    title: "CME Record Retention Period"
+    description: "How many years physicians must retain CME documentation not specified in 201 KAR 9:310 or board guidance"
+    impact: "MEDIUM"
+  - gap_id: "GAP-KY-006"
+    title: "Military Service CME Exemption"
+    description: "Whether active-duty military physicians receive CME credit or exemption not documented in 201 KAR 9:310 or board website"
+    impact: "MEDIUM"
+
+# MEDIUM PRIORITY GAPS
+medium_gaps:
+  - gap_id: "GAP-KY-005"
+    title: "Audit Appeal Process"
+    description: "Whether physicians can appeal audit findings if they disagree not specified in 201 KAR 9:310 - likely follows KRS 13B administrative hearing procedures"
+    impact: "MEDIUM"
+  - gap_id: "GAP-KY-007"
+    title: "New Licensee Pro-Ration Formula"
+    description: "How CME requirements are pro-rated for physicians licensed mid-cycle not specified in 201 KAR 9:310"
+    impact: "LOW"
+  - gap_id: "GAP-KY-008"
+    title: "Prescribing Limits Integration with CME"
+    description: "Whether statutory opioid prescribing limits affect CME requirements - CME requirements in 201 KAR 9:310, prescribing limits in KRS Chapter 218A (separate regulatory domains)"
+    impact: "LOW"
+  - gap_id: "GAP-KY-009"
+    title: "Audit Frequency Percentage"
+    description: "Specific percentage of renewals audited annually not publicly disclosed by board"
+    impact: "LOW"
+  - gap_id: "GAP-KY-010"
+    title: "CME Provider Auto-Reporting"
+    description: "Whether Kentucky requires or accepts auto-reporting of CME credits directly from CME providers to state board not documented"
+    impact: "LOW"
+
+# VERSION HISTORY
 version_history:
+  - version: "3.0"
+    date: "2026-01-03"
+    changes: "Applied v3.0 frontmatter template: added governance framework, SOC2 compliance, ISO standards, tier classification, scope definition, and structured gap arrays (critical/high/medium). Maintained completion at 85%."
   - version: "3.0"
     date: "2026-01-02"
     changes: "Expanded to comprehensive 85% standard. Added: Audit & Verification Procedures, CME Tracking Systems, Lapsed License Reinstatement, Exemptions & Alternatives, Expanded Controlled Substance Context, State-Specific Requirements, Comprehensive Gap Documentation. Increased from 160 to 550+ lines, 19 to 60+ evidence citations."
