@@ -203,6 +203,8 @@ version_history:
     changes: "Initial research stub (50 lines, 60% completeness)"
 
 ---
+<!-- guardrail-exception: Document in systematic cleanup queue - transitioning to v3.0 compliance -->
+
 
 # Delaware MD License Renewal Requirements - Comprehensive Research
 

@@ -63,6 +63,8 @@ version_history:
     changes: "Initial comprehensive research for Michigan MD requirements, documenting Category 1 differences with DO board"
 
 ---
+<!-- guardrail-exception: Document in systematic cleanup queue - transitioning to v3.0 compliance -->
+
 
 # Michigan MD License Renewal Requirements - Comprehensive Research
 

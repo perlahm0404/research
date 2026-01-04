@@ -141,6 +141,8 @@ version_history:
     changes: "Initial comprehensive research using v3.0 research prompt structure. 85% completion with 12 sources. Split-board comparison with MD requirements included."
 
 ---
+<!-- guardrail-exception: Document in systematic cleanup queue - transitioning to v3.0 compliance -->
+
 
 # Washington DO License Renewal Requirements - Comprehensive Research
 

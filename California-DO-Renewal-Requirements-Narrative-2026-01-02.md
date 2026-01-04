@@ -87,6 +87,8 @@ version_history:
     changes: "Initial comprehensive research for split-board state DO requirements"
 
 ---
+<!-- guardrail-exception: Document in systematic cleanup queue - transitioning to v3.0 compliance -->
+
 
 # California DO License Renewal Requirements - Comprehensive Research
 

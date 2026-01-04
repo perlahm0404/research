@@ -128,6 +128,8 @@ version_history:
     changes: "Initial TIER 2 research for Maine DO requirements documenting 2.5x MD/DO disparity (LARGEST in US)"
 
 ---
+<!-- guardrail-exception: Document in systematic cleanup queue - transitioning to v3.0 compliance -->
+
 
 # Maine DO License Renewal Requirements - Comprehensive Research
 

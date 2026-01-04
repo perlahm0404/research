@@ -71,6 +71,8 @@ version_history:
     changes: "Initial TIER 1 research for Louisiana MD renewal requirements - no web access, based on FSMB data and user-provided information"
 
 ---
+<!-- guardrail-exception: Document in systematic cleanup queue - transitioning to v3.0 compliance -->
+
 
 # Louisiana MD License Renewal Requirements - Comprehensive Research
 

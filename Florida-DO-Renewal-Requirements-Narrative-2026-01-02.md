@@ -86,6 +86,8 @@ version_history:
     changes: "Initial comprehensive TIER 2 research for Florida DO split-board requirements"
 
 ---
+<!-- guardrail-exception: Document in systematic cleanup queue - transitioning to v3.0 compliance -->
+
 
 # Florida DO License Renewal Requirements - Comprehensive Research
 

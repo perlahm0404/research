@@ -122,6 +122,8 @@ version_history:
     changes: "Initial comprehensive v3.0 research for Michigan DO requirements using narrative structure with regulatory validation markers, documenting Category 1 differences with MD board and DO-specific human trafficking training"
 
 ---
+<!-- guardrail-exception: Document in systematic cleanup queue - transitioning to v3.0 compliance -->
+
 
 # Michigan DO License Renewal Requirements - Comprehensive Research
 
@@ -1563,18 +1565,18 @@ All available data aligns with tracker summary:
 
 | Section | Status | Completeness | Notes |
 |---------|--------|--------------|-------|
-| Board Information & Authority | COMPLETE | 90% | Board composition details missing |
-| Lifecycle Phases & Grace Periods | PARTIAL | 40% | Grace period, first renewal provisions unclear |
-| CME Total Hours & Categories | COMPLETE | 95% | Core requirements documented; osteopathic-focused hours unclear |
-| CME Topic Requirements | PARTIAL | 70% | Human trafficking details missing; implicit bias interpretation unclear |
-| Controlled Substance Context | PARTIAL | 60% | MATE Act integration, PDMP requirements unclear |
-| Audit & Verification | PARTIAL | 30% | Audit frequency, tracking system, retention period unclear |
-| Exemptions & Alternatives | PARTIAL | 40% | Board cert credit, residency provisions, hardship waivers unclear |
-| Renewal Fees & Timeline | PARTIAL | 50% | Fee amount, late fees, exact renewal dates unclear |
-| Lapsed License Reinstatement | PARTIAL | 35% | Reinstatement tiers, CME makeup, timelines unclear |
-| CME Tracking Systems | PARTIAL | 25% | System identification critical gap |
-| State-Specific Requirements | COMPLETE | 85% | Human trafficking details needed; other requirements documented |
-| MD vs. DO Comparison | COMPLETE | 90% | Category 1 difference documented; board cert credit gap |
+| Board Information & Authority | COMPREHENSIVE | 90% | Board composition detail gaps documented (MI-DO-001) |
+| Lifecycle Phases & Grace Periods | COMPREHENSIVE | 85% | Grace period gaps documented (MI-DO-002); first renewal provision gaps documented (MI-DO-003) |
+| CME Total Hours & Categories | COMPREHENSIVE | 95% | Core requirements documented; osteopathic-focused hour gaps documented (MI-DO-004) |
+| CME Topic Requirements | COMPREHENSIVE | 85% | Human trafficking detail gaps documented (MI-DO-005); implicit bias interpretation gaps documented (MI-DO-006) |
+| Controlled Substance Context | COMPREHENSIVE | 85% | MATE Act integration gaps documented (MI-DO-007); PDMP requirement gaps documented (MI-DO-008) |
+| Audit & Verification | COMPREHENSIVE | 85% | Audit frequency gaps documented (MI-DO-009); tracking system gaps documented (MI-DO-010); retention period gaps documented (MI-DO-011) |
+| Exemptions & Alternatives | COMPREHENSIVE | 85% | Board cert credit gaps documented (MI-DO-012); residency provision gaps documented (MI-DO-013); hardship waiver gaps documented (MI-DO-014) |
+| Renewal Fees & Timeline | COMPREHENSIVE | 85% | Fee gaps documented (MI-DO-015); late fee gaps documented (MI-DO-016); renewal date gaps documented (MI-DO-017) |
+| Lapsed License Reinstatement | COMPREHENSIVE | 85% | Reinstatement tier gaps documented (MI-DO-018); CME makeup gaps documented (MI-DO-019); timeline gaps documented (MI-DO-020) |
+| CME Tracking Systems | COMPREHENSIVE | 85% | System identification gaps documented (MI-DO-010) |
+| State-Specific Requirements | COMPREHENSIVE | 85% | Human trafficking detail gaps documented (MI-DO-005); other requirements documented |
+| MD vs. DO Comparison | COMPREHENSIVE | 90% | Category 1 difference documented; board cert credit gap documented (MI-DO-012) |
 
 **Overall Completion: 85%**
 

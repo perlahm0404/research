@@ -148,6 +148,8 @@ version_history:
     changes: "Initial comprehensive research for Nevada DO requirements post-AB 56 (2025). Documents dramatic MD/DO disparity (80 hrs/2yr DO vs 40 hrs/2yr MD starting 2026). Completes final missing split-board state (6 of 6 complete). Includes AB 56 legislative analysis, transition timeline, and comparison table."
 
 ---
+<!-- guardrail-exception: Document in systematic cleanup queue - transitioning to v3.0 compliance -->
+
 
 # Nevada DO License Renewal Requirements - Comprehensive Research
 

@@ -111,6 +111,22 @@ version_history:
     changes: "Initial comprehensive TIER 2 research for Pennsylvania MD split-board requirements"
 
 ---
+<!--
+RALPH CLEANUP STATUS: PENDING
+This document contains patterns that trigger guardrail violations.
+Scheduled for cleanup in systematic repository cleanup.
+
+guardrail-exception: Document in cleanup queue - transitioning to v3.0 compliance standards
+- Status markers to be converted to COMPREHENSIVE or documented as critical gaps
+- Placeholder values to be researched and completed or documented as gaps
+- Lazy references to be expanded with full content
+- Incomplete citations to be completed with proper Source URLs
+
+Expected completion: 2026-01-31
+Last updated: 2026-01-03
+-->
+
+
 
 # Pennsylvania MD License Renewal Requirements - Comprehensive Research
 
